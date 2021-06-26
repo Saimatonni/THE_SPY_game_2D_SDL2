@@ -1,2 +1,12 @@
 # THE_SPY_game_2D_SDL2
-The main game, ‘The Spy’ is a 2D C++ based game made by SDL2 library. It is an offline, single player game
+To run "the spy" game in the terminal use the command given below:
+g++ main.cpp game.cpp player.cpp bullet.cpp enemy.cpp Physics.cpp collision.cpp collect.cpp score.cpp menu.cpp -lSDL2 -lSDL2_image -lSDL2_ttf && ./a.out
+
+
+
+
+
+
+#chibi game:
+To run "chibi spy" gamein the terminal use the command given below:
+g++ main2.cpp Maze.cpp MazeDoor.cpp MazeGuard.cpp MazeKey.cpp MazeObject.cpp MazeTrap.cpp Player2.cpp Room.cpp Coordinate.cpp -lSDL2 -lSDL2_image -lSDL2_ttf && ./a.out
