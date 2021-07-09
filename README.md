@@ -1,6 +1,6 @@
 # THE_SPY_game_2D_SDL2
 To run "the spy" game in the terminal use the command given below:
-g++ main.cpp game.cpp player.cpp bullet.cpp enemy.cpp Physics.cpp collision.cpp collect.cpp score.cpp menu.cpp -lSDL2 -lSDL2_image -lSDL2_ttf && ./a.out
+g++ main.cpp game.cpp player.cpp bullet.cpp enemy.cpp Physics.cpp collision.cpp collect.cpp score.cpp menu.cpp -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer && ./a.out
 
 
 
@@ -9,4 +9,4 @@ g++ main.cpp game.cpp player.cpp bullet.cpp enemy.cpp Physics.cpp collision.cpp 
 
 #chibi game:
 To run "chibi spy" gamein the terminal use the command given below:
-g++ main2.cpp Maze.cpp MazeDoor.cpp MazeGuard.cpp MazeKey.cpp MazeObject.cpp MazeTrap.cpp Player2.cpp Room.cpp Coordinate.cpp -lSDL2 -lSDL2_image -lSDL2_ttf && ./a.out
+g++ main2.cpp Maze.cpp MazeDoor.cpp MazeGuard.cpp MazeKey.cpp MazeObject.cpp MazeTrap.cpp Player2.cpp Room.cpp Coordinate.cpp -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer && ./a.out
