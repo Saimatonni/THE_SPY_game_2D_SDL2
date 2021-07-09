@@ -1,1 +1,19 @@
+To run the game with terminal, write the following command in command line:
+
 g++ main2.cpp Maze.cpp MazeDoor.cpp MazeGuard.cpp MazeKey.cpp MazeObject.cpp MazeTrap.cpp Player2.cpp Room.cpp Coordinate.cpp -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer && ./a.out
+
+Instruction:
+
+*The object of the game is to clear 7 levels of the quest.
+*The player has only 10 lives.
+*100 points will be added to the current score if the player clears a level.
+*To avoid losing life, the player must avoid active fire traps and the enemy guards. 
+*To clear the level, the player must first acquire the 'pendrive' and then reach the room where the 'computer' is present.
+*To start the gameplay, press any key except 'esc'.
+*Press 'esc' key to exit from the game.
+*Press 'k' key of the keyboard to pause music during gameplay.
+*Press 'k' key of the keyboard to resume music, if it was previously paused during gameplay.
+*Press 'z' key of the keyboard to halt music during gameplay.
+*Press the direction key 'up' , 'down' , 'left' , 'right' to move the character of the player accordingly.
+*Press 'r' key of the keyboard to reset the level of the game. Player will lose a life and the whole maze pattern and the positions of the game objects will change if the game is reset.
+
