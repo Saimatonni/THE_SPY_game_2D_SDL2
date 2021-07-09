@@ -1,2 +1,4 @@
 To run the files in terminal
 g++ main.cpp game.cpp player.cpp bullet.cpp enemy.cpp Physics.cpp collision.cpp collect.cpp score.cpp menu.cpp -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer && ./a.out
+
+Press 'z' to off the sound. And press 'k' to on the sound
