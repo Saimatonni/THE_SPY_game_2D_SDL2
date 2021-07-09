@@ -1,1 +1,0 @@
-g++ main2.cpp Maze.cpp MazeDoor.cpp MazeGuard.cpp MazeKey.cpp MazeObject.cpp MazeTrap.cpp Player2.cpp Room.cpp Coordinate.cpp -lSDL2 -lSDL2_image -lSDL2_ttf && ./a.out
